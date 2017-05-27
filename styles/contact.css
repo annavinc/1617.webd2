@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+    color : #D9C399;
+    border : solid 4px #D9C399;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-align : center;
+
+}
+
+h2 {
+    color : #DFB0A6;
+    font-size : 4em;
+    font-weight : 100;
+    font-family : 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight : 100;
+    color : #A3A3A3;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+#contact {
+    margin-top : 80px;
+    color : #DBDAD6;
+    font-style : italic;
+}
+
+#a {
+    text-decoration : none;
+    color : #DBDAD6; 
+
+}
+
+#agency {
+    color : #A3A3A3;
+    font-weight : 100;
+    font-size : 0.6em;
+    font-family  :'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+#here {
+    color : #DFB0A6;
+    font-weight : 200;
+}
+
+.uitlijning {
+    margin-left : 20px;
+}

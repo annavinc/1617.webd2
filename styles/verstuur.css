@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+    font-family : 'Montserrat', sans-serif;
+    margin-top: 100px;
+
+
+}
+h2 {
+    font-weight : 100;
+    color : #DBDAD6;
+}
+
+#here {
+    color : #DFB0A6;
+    font-weight : 200;
+}
+
+p {
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight : 100;
+    color : #A3A3A3;
+}
+
+.footer {
+    margin-top : 380px;
+}

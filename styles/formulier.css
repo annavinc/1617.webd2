@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#naam {
+    margin-top  : 90px;
+    background-color : #EFEFEF;
+    font-family : 'Montserrat', sans-serif;
+    padding-bottom : 20px;
+    border : #D8D8D8;
+    border-radius : 5px;
+    padding-left : 10px;
+    padding-top : 3px;
+    width : 500px;
+    margin-left : 22Px;
+
+}
+
+#naam1 {
+    margin-top  : 40px;
+    background-color : #EFEFEF;
+    font-family : 'Montserrat', sans-serif;
+    padding-bottom : 20px;
+    border : #D8D8D8;
+    border-radius : 5px;
+    padding-left : 10px;
+    padding-top : 3px;
+    width : 500px;
+    margin-left: 22px;
+}
+#bericht {
+    margin-top  : 40px;
+    background-color : #EFEFEF;
+    font-family : 'Montserrat', sans-serif;
+    padding-bottom : 100px;
+    border : #D8D8D8;
+    border-radius : 5px;
+    padding-left : 10px;
+    padding-top : 3px;
+    width : 500px;
+    margin-left : 22px;
+}
+#verstuur {
+    color : black;
+    border : none;
+    font-family: 'Montserrat', sans-serif;
+    padding : 5px;
+    margin-top : 10px;
+    margin-left : 22Px;
+}
+
+.foto {
+    margin-top: 90px;
+    padding-left : 100px;
+    padding-bottom : 30px;
+}
+
+#here {
+    color : #DFB0A6;
+    font-weight : 200;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left : 22px;
+    text-decoration : underline;
+    margin-left : 22px;
+}

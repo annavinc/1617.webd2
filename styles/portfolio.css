@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#youarehere {
+    font-family: 'Montserrat', sans-serif;
+    padding:10px;
+}
+
+#here {
+    color : #DFB0A6;
+    font-weight : 200;
+}
+
+
+.foto {
+    margin-top : 100px;
+    width : 350px;
+    text-align : left;
+}
+
+.poster {
+    margin-top : 100px;
+    width : 300px;
+    text-align : left
+}
+
+

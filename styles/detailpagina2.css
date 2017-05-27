@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.kaartje {
+    height : 800px;
+}
+
+#here {
+    color : #DFB0A6;
+    font-weight : 200;
+}
+
+#back {
+     color : #A3A3A3;
+    text-decoration: none;
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-weight: 100;
+}

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>DEXXIGNER</title>
+	<title>Over ons</title>
 
 	<!-- OTHER IMPORTANT SEO TAGS -->	
 	<meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten MMP willen graag hun kennis delen met jou!">
@@ -12,7 +12,8 @@
 	
 	<!-- stijlen: let op! watervalsysteem, de volgorde is dus belangrijk -->
 	<link rel="stylesheet" media="all" href="styles/vendor/normalize.css" />
-	<link rel="stylesheet" media="all" href="styles/index.css" />
+	<link rel="stylesheet" media="all" href="styles/over.css" />
+    <link rel="stylesheet" media="all" href="styles/base.css" />
 	<link rel="stylesheet" media="all" href="styles/grid.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	
@@ -25,44 +26,6 @@
 
 <body>
 
-
-<div class="grid__wrapper header_wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-		<div class="grid__column-12">
-			<div class="title_wrap">
-				<h1>DEXXIGNER</h1>
-			</div>
-		</div>
-		</div>
-	</div>
-</div>
-<!---->
-
-<div class="grid__wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-		<div class="Grid__column-12">
-			<p class="intro">“We design and build innovative digital platforms <br>
-				that deliver award winning secure user experiences 
-				to create more profitable and connected client businesses.”</p>
-		</div>
-		</div>
-	</div>
-</div>
-<!---->
-
-<div class="grid__wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-		<div class="grid__column-12">
-			<p class="get">Get to know us</p>
-		</div>
-		</div>
-	</div>
-</div>
-<!---->
-
 <div class="grid__wrapper">
 	<div class="grid__container">
 		<div class="grid__row">
@@ -70,11 +33,12 @@
 			<nav id="navigation">
                      <ul class="clearfix">
                             <li>
-                                <a href="Diensten.html">Onze diensten en aanpak</a>
+                                <a href="diensten.html">Onze diensten en aanpak</a>
                             </li>
-                            <li>
-                                <a href="Over.html">Over ons</a>
+							<li>
+                                <a id="here" href="index.html">Home</a>
                             </li>
+                        
                             <li>
                                 <a href="Team.html">Het team </a>
                             </li>
@@ -87,6 +51,8 @@
                             <li>
                                 <a href="Contact.html">Contact</a>
                             </li>
+							
+                    
                     </ul>
 
                 </nav>
@@ -98,27 +64,39 @@
 <div class="grid__wrapper">
 	<div class="grid__container">
 		<div class="grid__row">
-		<div class="grid__column-4 grid__offset-4">
-			<div class="links">
-				<a href="http://www.facebook.be">
-				<img src="image/facebook.png" alt="facebook" style="width: 40px"></a>
-
-				<a href="http://www.instagram.be">
-				<img src="image/insta.png" alt="facebook" style="width: 52px"></a>
-
-				<a href="http://www.linkedin.com">
-				<img src="image/linkedin.png" alt="facebook" style="width: 69px"></a>
-
-				<a href:"http://www.twitter.com">
-				<img src="image/twitter.png" alt="facebook" style="width: 34px"></a>
-			</div>
+		<div class="grid__column-8 grid__offset-0">
+			<p class="uitleg"> Wij zijn <span id="merk">DeXXigner</span>, een Belgisch grafisch bureau.<br> 
+                                We omschrijven onszelf het liefst als een enthousiaste groep van creatieve communicatiearchitecten. 
+                                <br><br>
+                                Ons team bestaat uit drie vrienden, <br>
+                                afgestudeerd aan de Arteveldehogeschool in de richting CrossMedia-Ontwerp, <br>
+                                die na het afstuderen samen de droom hadden een grafisch bureau te beginnen.
+                                <br><br>
+                                <span id="merk">Grafische oplossingen bedenken die volledig beantwoorden aan de vraag van onze klanten, 
+                                zien we als onze grootste uitdaging.</span></p>
+		</div>
 		</div>
 	</div>
 </div>
+
 <!---->
 
+
+<div class="grid__wrapper">
+	<div class="grid__container">
+		<div class="grid__row">
+		<div class="grid__column-12">
+			<img class="fotoA"src="image/computervrouw.jpg" alt="computer">
+			<img class="fotoB"src="image/kleurentest.jpg" alt="test">
+			<img class="fotoB" src="image/vrouw.jpg" alt="vrouw">
+		</div>
+		</div>
+	</div>
+</div>
+
+
 <footer class="footer">
-<span id="youarehere">You are here| </span> Home
+<span id="youarehere">You are here</span> | Over ons</span>
 </footer>
 
 </body>
